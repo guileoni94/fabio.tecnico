@@ -1,14 +1,14 @@
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #d6a354;
-  --secondary-color:              #c12828;
+  --primary-color:                #b99d74;
+  --secondary-color:              #000000;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #c12828;
+  --custom-btn-bg-color:          #000000;
   --custom-btn-bg-hover-color:    #FDBB2D;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
+  --p-color:                      #ff8a00;
+  --border-color:                 #b99d74;
+  --link-hover-color:             #ff8a00;
 
   --body-font-family:             'Unbounded', cursive;
 
