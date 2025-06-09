@@ -88,7 +88,7 @@ Como resultado final, foi entregue um site funcional, leve e visualmente organiz
 
 
 
-LINK DO VÍDEO: 
+LINK DO VÍDEO: https://www.youtube.com/watch?v=qohbD79V_5E
 
 
 
