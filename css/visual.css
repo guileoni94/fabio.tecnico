@@ -1,14 +1,14 @@
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #d6a354;
-  --secondary-color:              #c12828;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #c12828;
+  --white-color:                  #fff4e2;
+  --primary-color:                #b99d74;
+  --secondary-color:              #000000;
+  --section-bg-color:             #e6d8c9;
+  --custom-btn-bg-color:          #000000;
   --custom-btn-bg-hover-color:    #FDBB2D;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
+  --p-color:                      #ff8a00;
+  --border-color:                 #fff3e1;
+  --link-hover-color:             #ff8a00;
 
   --body-font-family:             'Unbounded', cursive;
 
@@ -258,7 +258,9 @@ strong {
 #sidebarMenu .nav-link.active, 
 #sidebarMenu .nav-link:hover {
   color: var(--white-color);
+ 
 }
+
 
 .navbar-toggler {
   background: var(--primary-color);
@@ -556,13 +558,7 @@ strong {
 /*---------------------------------------
   BOOKING               
 -----------------------------------------*/
-.booking-section {
-  background-image: url('../images/vintage-chair-barbershop.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-}
+
 
 .booking-form {
   background: var(--white-color);
@@ -827,5 +823,34 @@ strong {
   .booking-form {
     padding: 35px;
   }
+}
+
+
+/* Estilo geral do formulário */
+.booking-form {
+    background-color: #fff4e2;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px#fee2b8
+}
+
+/* Estilo dos inputs e selects */
+.booking-form .form-control,
+.booking-form .form-select {
+    font-size: 1.1rem;
+    padding: 14px 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+
+
+/* Aumentar o tamanho do select (botão de seleção de serviço) */
+.booking-form select.form-select {
+    font-size: 1.15rem;
+    height: 56px;
+  --white-color:                  
+    background-color: #fff4e2;
 }
 
